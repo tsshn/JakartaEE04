@@ -1,7 +1,14 @@
 package library;
 
 public class ConditionalClass {
+
+    private String output;
+
+    ConditionalClass(String output) {
+        this.output = output;
+    }
+
     public void printInfo() {
-        System.out.println("I was created because an appropriate condition exists and has a specified value");
+        System.out.println("Sequence name: " + output);
     }
 }
