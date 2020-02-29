@@ -1,2 +1,1 @@
-# JakartaEE04
- 
+# Jakarta EE. Homework #1
