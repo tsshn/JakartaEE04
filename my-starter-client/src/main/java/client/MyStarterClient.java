@@ -1,5 +1,6 @@
 package client;
 
+import library.ConditionalClass;
 import library.MyLibraryClass;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,5 +17,8 @@ public class MyStarterClient {
 
         MyLibraryClass myLibraryClass1 = (MyLibraryClass) applicationContext.getBean("myLibraryClass");
         myLibraryClass1.printInfo();
+
+        ConditionalClass conditionalClass = applicationContext.getBean(ConditionalClass.class);
+        conditionalClass.printInfo();
     }
 }
