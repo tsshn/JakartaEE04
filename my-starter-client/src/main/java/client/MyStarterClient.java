@@ -21,5 +21,5 @@ public class MyStarterClient {
         ConditionalClass conditionalClass = applicationContext.getBean(ConditionalClass.class);
         conditionalClass.printInfo();
     }
-    
+
 }
